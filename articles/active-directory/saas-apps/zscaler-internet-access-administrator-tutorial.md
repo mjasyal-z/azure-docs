@@ -34,13 +34,13 @@ If you don't have an Azure subscription, [create a free account](https://azure.m
 To configure Azure AD integration with Zscaler Internet Access Administrator, you need the following items:
 
 * An Azure AD subscription. If you don't have an Azure AD environment, you can get one-month trial [here](https://azure.microsoft.com/pricing/free-trial/)
-* Zscaler Internet Access Administrator single sign-on enabled subscription
+* Zscaler Internet Access subscription
 
 ## Scenario description
 
 In this tutorial, you configure and test Azure AD single sign-on in a test environment.
 
-* Zscaler Internet Access Administrator supports **IDP** initiated SSO
+* Zscaler Internet Access Administrator only supports **IDP** initiated SSO
 
 ## Adding Zscaler Internet Access Administrator from the gallery
 
@@ -100,7 +100,7 @@ To configure Azure AD single sign-on with Zscaler Internet Access Administrator,
 
     ![Zscaler Internet Access Administrator Domain and URLs single sign-on information](common/idp-intiated.png)
 
-    a. In the **Identifier** text box, type a URL as per your requirement:
+    a. In the **Identifier** text box, type a URL as per your Zscaler cloud name:
 	| |
 	|--|
 	| `https://admin.zscaler.net` |
@@ -110,7 +110,7 @@ To configure Azure AD single sign-on with Zscaler Internet Access Administrator,
 	| `https://admin.zscloud.net` |
 	| `https://admin.zscalerbeta.net` |
 
-    b. In the **Reply URL** text box, type a URL as per your requirement:
+    b. In the **Reply URL** text box, type a URL as per your Zscaler cloud name:
 	| |
 	|--|
 	| `https://admin.zscaler.net/adminsso.do` |
@@ -161,9 +161,9 @@ To configure Azure AD single sign-on with Zscaler Internet Access Administrator,
 
 ### Configure Zscaler Internet Access Administrator Single Sign-On
 
-9. In a different web browser window, log in to your Zscaler Internet Access Administrator company site as an administrator.
+9. In a different web browser window, log in to your Zscaler Internet Access Admin portal.
 
-10. Go to **Administration > Authentication > Authentication Settings** and perform the following steps:
+10. Go to **Administration > Administrator Management** and perform the following steps:
    
 	![Administration](./media/zscaler-internet-access-administrator-tutorial/ic800206.png "Administration")
 
